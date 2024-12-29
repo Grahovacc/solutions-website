@@ -49,8 +49,8 @@ const CommunityDriven = () => {
               <span className="text-black/100">
                 you need to reserve 'Coretime' on one of its cores.
               </span>{" "}
-              Most projects don’t require nearly as much as an entire
-              core allocated to them.{" "}
+              Most projects don’t require nearly as much as an entire core
+              allocated to them.{" "}
             </p>
             <p className="text-center mt-5 text-black/50 lg:text-[30px] lg:leading-[40px] text-[24px] leading-[32px] font-inter">
               With RegionX,{" "}
@@ -93,12 +93,14 @@ const CommunityDriven = () => {
                     Decentralized Governance
                   </h2>
                   <p className="community-para-text">
-                    RegionX is built in the form of a dedicated parachain deployed on Polkadot. It is fully governed by token holders.  
+                    RegionX is built in the form of a dedicated parachain
+                    deployed on Polkadot. It is fully governed by token holders.
                   </p>
                   <br />
                   <p className="community-para-text">
-                    It implements a hybrid governance model where protocol upgrades must be approved by DOT token holders,
-                    while the on-chain treasury is managed using the RegionX native token.
+                    It implements a hybrid governance model where protocol
+                    upgrades must be approved by DOT token holders, while the
+                    on-chain treasury is managed using the RegionX native token.
                   </p>
                 </div>
               </div>
@@ -109,11 +111,14 @@ const CommunityDriven = () => {
                   </span>
                   <h2 className="community-main-text">RegionX's Solution</h2>
                   <p className="community-para-text">
-                    At RegionX, our goal is to make the Coretime procurement process decentralized and community-driven.
+                    At RegionX, our goal is to make the Coretime procurement
+                    process decentralized and community-driven.
                   </p>
-                  <br/>
+                  <br />
                   <p className="community-para-text">
-                    We are reintroducing the community component similar to what Polkadot initially had with the Parachain Slot Auction model.
+                    We are reintroducing the community component similar to what
+                    Polkadot initially had with the Parachain Slot Auction
+                    model.
                   </p>
                 </div>
               </div>
@@ -128,12 +133,15 @@ const CommunityDriven = () => {
                     Limitations of Default Protocol
                   </h2>
                   <p className="community-para-text">
-                    Most projects deployed on Polkadot share the goal of being self-governing, decentralized autonomous entities. 
+                    Most projects deployed on Polkadot share the goal of being
+                    self-governing, decentralized autonomous entities.
                   </p>
-                  <br/>
+                  <br />
                   <p className="community-para-text">
-                    By default, the core Polkadot protocol does not provide a way to procure Coretime in a decentralized manner
-                    that does not rely on a specific set of people to continue its operation on Polkadot.
+                    By default, the core Polkadot protocol does not provide a
+                    way to procure Coretime in a decentralized manner that does
+                    not rely on a specific set of people to continue its
+                    operation on Polkadot.
                   </p>
                 </div>
               </div>
@@ -146,8 +154,9 @@ const CommunityDriven = () => {
                     Community Participation Rewards
                   </h2>
                   <p className="community-para-text">
-                    Anyone can help a project in the Coretime procurement process and, depending on the project, 
-                    be rewarded for doing so.
+                    Anyone can help a project in the Coretime procurement
+                    process and, depending on the project, be rewarded for doing
+                    so.
                   </p>
                 </div>
               </div>

@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import React, { useRef } from "react";
 
-const PolkadotOffer = () => {
+const SolutionAbout = () => {
   const containerRef = useRef();
   const { scrollYProgress: startAnim } = useScroll({
     target: containerRef,
@@ -19,7 +19,7 @@ const PolkadotOffer = () => {
       <div ref={containerRef} className="container mx-auto px-4 2xl:px-12">
         <motion.div
           style={{ y, scale }}
-          className="bg-slate-500 pt-5 overflow-hidden relative rounded-3xl"
+          className="bg-green-950 pt-5 overflow-hidden relative rounded-3xl"
         >
           <svg
             className="absolute top-0 right-8"
@@ -79,19 +79,20 @@ const PolkadotOffer = () => {
             }}
           />
 
-          <div className='md:bg-[url("/polkadot-bg.svg")] bg-fixed bg-[url("/polkadot-bg-mobile.svg")] bg-no-repeat bg-center bg-cover'>
-            <div className="flex flex-col items-center justify-center">
-              <div className="max-w-[679px] py-[180px] sm:py-[100px] md:py-[120px] lg:py-[150px] 3xl:py-[240px] mx-auto text-center p-4 flex flex-col items-center justify-center">
+          <div className="md:bg-[url('/polkadot-bg.svg')] bg-fixed bg-[url('/polkadot-bg-mobile.svg')] bg-no-repeat bg-center bg-cover">
+            <div className="flex flex-col items-start justify-start relative">
+              <div className="absolute top-0 left-6 px-4 py-6 max-w-[679px] text-left">
                 <h2 className="text-white md:text-[48px] md:leading-[40px] text-[24px] leading-[32px] font-inter font-medium">
-                  What does <span className="text-primary">Polkadot</span>{" "}
-                  offer?
+                  More About Us
                 </h2>
-                <p className="md:text-white text-white/80 md:text-[18px] md:leading-[22px] text-sm !leading-[122%] font-inter font-normal mt-[12px]">
-                  Polkadot provides economic security to your project. With
-                  hundreds of validators scattered around the world it serves as
-                  a world computer on which projects can be deployed. With its
-                  architecture where the validators are split into cores, it can
-                  provide security to multiple projects in parallel.{" "}
+              </div>
+              <div className="max-w-[90%] sm:max-w-[80%] md:max-w-[70%] lg:max-w-[60%] py-[40px] sm:py-[60px] md:py-[80px] lg:py-[100px] text-left px-12">
+                <p className="md:text-white text-white/80 text-[20px] md:text-[22px] md:leading-[28px] text-base !leading-[140%] font-inter font-normal mt-4">
+                  We are a technical team with expertise in rollup development
+                  using the Polkadot-SDK. Our team consists of members with
+                  several years of experience within the Polkadot ecosystem,
+                  along with connections to members of Parity Technologies and
+                  the Polkadot Fellowship.
                 </p>
               </div>
             </div>
@@ -102,4 +103,4 @@ const PolkadotOffer = () => {
   );
 };
 
-export default PolkadotOffer;
+export default SolutionAbout;

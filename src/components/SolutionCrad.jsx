@@ -1,6 +1,4 @@
 import React from "react";
-import { ArrowRightIcon } from "./common/Icon";
-import SocialMedia from "./common/SocialMedia";
 import { motion } from "framer-motion";
 
 const SolutionCard = () => {
@@ -20,11 +18,10 @@ const SolutionCard = () => {
             "linear-gradient(to bottom, rgba(255, 255, 255, 0) 30%, white 70%), url('/banner-bg.svg')",
         }}
       ></div>
-      <div className="overflow-hidden relative  flex items-end pb-6 ">
+      <div className="overflow-hidden relative flex items-end pb-6">
         <div className="absolute left-[-40%] top-[329px] sm:top-[8vh] w-[950px] sm:w-[2000px] h-[652px] sm:h-[1290px] rotate-[16deg] hero-white-layer z-0"></div>
         <div className="container mx-auto px-4 2xl:px-12 w-full relative z-[1]">
-          <div className="max-w-[950px] text-center">
-            {" "}
+          <div className="max-w-[950px] text-center mt-[100px]">
             <h1 className="text-slate-500 text-[35px] flex flex-col sm:text-[48px] lg:text-[56px] xl:text-[60px] 2xl:text-[67px] 3xl:text-[100px] md:text-[50px] leading-[130%] mb-0">
               <div className="overflow-hidden">
                 <motion.span
@@ -47,8 +44,8 @@ const SolutionCard = () => {
                 >
                   At RegionX Solutions, we provide consultation and assistance
                   to help you develop and deploy your rollup project in the
-                  Polkadot ecosystem{" "}
-                </motion.span>{" "}
+                  Polkadot ecosystem
+                </motion.span>
               </div>
             </p>
           </div>

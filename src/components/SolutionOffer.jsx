@@ -59,7 +59,7 @@ const SolutionOffer = () => {
             <div className="community-main-box w-full lg:w-[48%] flex items-center p-6 rounded-2xl relative">
               <div className="flex-1">
                 <h3 className="text-3xl font-bold text-primary mb-4 tracking-wide  top-4 left-6">
-                  Smart Contract Rollup Services
+                  Support for Transitioning to a Rollup
                 </h3>
                 <p className="community-para-text text-lg lg:text-xl mt-6 mb-4">
                   We offer development and consultancy services for smart

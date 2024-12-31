@@ -7,7 +7,6 @@ const HeaderLinks = ({ setIsLeftMenu, locomotiveRef }) => {
   const location = useLocation();
 
   const handleScroll = (url) => {
-    setIsLeftMenu(false);
     setTimeout(() => {
       if (locomotiveRef.current) {
         locomotiveRef.current.scrollTo(url);
@@ -24,6 +23,8 @@ const HeaderLinks = ({ setIsLeftMenu, locomotiveRef }) => {
     if (url.startsWith("#")) {
       event.preventDefault();
 
+      setIsLeftMenu(false);
+
       if (location.pathname === "/") {
         handleScroll(url);
       } else {
@@ -31,6 +32,7 @@ const HeaderLinks = ({ setIsLeftMenu, locomotiveRef }) => {
       }
     } else if (!url.startsWith("http")) {
       event.preventDefault();
+      setIsLeftMenu(false);
       navigate(url);
     }
   };

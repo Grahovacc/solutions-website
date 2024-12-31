@@ -15,7 +15,7 @@ const SolutionCard = () => {
         className="absolute inset-0 bg-no-repeat xl:bg-cover bg-auto z-0"
         style={{
           backgroundImage:
-            "linear-gradient(to bottom, rgba(255, 255, 255, 0) 30%, white 70%), url('/banner-bg.svg')",
+            "linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 60%), url('/banner-bg.svg')",
         }}
       ></div>
       <div className="overflow-hidden relative flex items-end pb-6">

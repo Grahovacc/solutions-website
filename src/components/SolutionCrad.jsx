@@ -39,7 +39,7 @@ const SolutionCard = () => {
                 <motion.span
                   initial={varients.initial}
                   animate={varients.animate}
-                  className="inline-block origin-left"
+                  className="inline-block origin-left bg-white p-1"
                   transition={{ duration: 0.4, ease: "easeInOut", delay: 0.7 }}
                 >
                   At RegionX Solutions, we provide consultation and assistance

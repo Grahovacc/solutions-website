@@ -37,13 +37,14 @@ const SolutionWhy = () => {
 
       <div className="lg:py-[100px] py-[40px] overflow-hidden">
         <div ref={coreTimeRef} className="container mx-auto px-4 2xl:px-12">
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-center mb-10 sm:mb-6">
             <img
               src={StarGreenImg}
               alt=""
               className="w-[40px] h-[40px] object-contain"
             />
           </div>
+
           <motion.h2
             style={{ opacity: CoretimeOpacity, y: coretimeY }}
             className="text-left text-black/100 xl:text-[48px] md:text-[38px] md:leading-[50px] text-[22px] leading-[29px] font-inter font-medium -mt-[40px]"

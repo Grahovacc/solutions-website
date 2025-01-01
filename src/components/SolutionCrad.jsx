@@ -15,7 +15,7 @@ const SolutionCard = () => {
         className="absolute inset-0 bg-no-repeat xl:bg-cover bg-auto z-0"
         style={{
           backgroundImage:
-            "linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 60%), url('/banner-bg.svg')",
+            "linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 80%), url('/banner-bg.svg')",
         }}
       ></div>
       <div className="overflow-hidden relative flex items-end pb-6">
@@ -27,7 +27,7 @@ const SolutionCard = () => {
                 <motion.span
                   initial={varients.initial}
                   animate={varients.animate}
-                  className="inline-block origin-left"
+                  className="inline-block origin-left bg-white"
                   transition={{ duration: 0.6, ease: "easeInOut", delay: 0.4 }}
                 >
                   <span className="font-semibold">RegionX</span> Solutions
@@ -39,7 +39,7 @@ const SolutionCard = () => {
                 <motion.span
                   initial={varients.initial}
                   animate={varients.animate}
-                  className="inline-block origin-left"
+                  className="inline-block origin-left bg-white p-1"
                   transition={{ duration: 0.4, ease: "easeInOut", delay: 0.7 }}
                 >
                   At RegionX Solutions, we provide consultation and assistance

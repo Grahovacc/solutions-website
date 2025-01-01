@@ -27,7 +27,7 @@ const SolutionCard = () => {
                 <motion.span
                   initial={varients.initial}
                   animate={varients.animate}
-                  className="inline-block origin-left"
+                  className="inline-block origin-left bg-white"
                   transition={{ duration: 0.6, ease: "easeInOut", delay: 0.4 }}
                 >
                   <span className="font-semibold">RegionX</span> Solutions

@@ -21,6 +21,11 @@ export const links = [
     title: "Team",
     url: "#team",
   },
+  {
+    id: 5,
+    title: "Solutions",
+    url: "/solutions",
+  },
 ];
 
 export const socialMedialinks = [
@@ -41,7 +46,7 @@ export const socialMedialinks = [
     title: "LinkedIn",
     icon: <LinkedinIcon />,
     url: "https://www.linkedin.com/company/regionx/",
-  }
+  },
 ];
 
 export const innovativeToolsLink = [

@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Route, Routes } from "react-router-dom";
 import Homepage from "./pages/Homepage";
+import Solutions from "./pages/Solutions";
 import LocomotiveScroll from "locomotive-scroll";
 import Header from "./components/common/Header";
 import { useEffect, useRef } from "react";
@@ -43,6 +44,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Homepage />} />
+        <Route path="/solutions" element={<Solutions />} />
       </Routes>
     </div>
   );

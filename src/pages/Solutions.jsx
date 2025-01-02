@@ -1,10 +1,10 @@
 import React from "react";
 import Footer from "../components/common/Footer";
-import SolutionCard from "../components/SolutionCrad";
+import SolutionCard from "../components/SolutionCard";
 import SolutionWhy from "../components/SolutionWhy";
 import SolutionAbout from "../components/SolutionAbout";
 import SolutionOffer from "../components/SolutionOffer";
-import SolutionBook from "../components/SolutionBook";
+import SolutionBook from "../components/CallScheduling";
 
 const Solutions = () => {
   return (

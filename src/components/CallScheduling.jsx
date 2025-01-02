@@ -36,9 +36,9 @@ const SolutionBook = () => {
               Book a Call with Us
             </h2>
             <p className="text-lg lg:text-xl text-gray-600">
-              Schedule an introductory call to explore how deploying on Polkadot can 
-              benefit your project and to walk through the process we would follow to 
-              deliver.
+              Schedule an introductory call to explore how deploying on Polkadot
+              can benefit your project and to walk through the process we would
+              follow to deliver.
             </p>
           </div>
 

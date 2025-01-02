@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import React, { useEffect, useRef } from "react";
 
-const PolkadotOffer = () => {
+const SolutionBook = () => {
   const containerRef = useRef();
   const calendlyRef = useRef();
 
@@ -61,4 +61,4 @@ const PolkadotOffer = () => {
   );
 };
 
-export default PolkadotOffer;
+export default SolutionBook;
